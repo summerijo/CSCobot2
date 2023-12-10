@@ -1,0 +1,54 @@
+<!-- Your HTML -->
+{% extends "layout/base.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/chatcss.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/color.css') }}">
+{% endblock css %}
+
+{% block content %}
+<div id="wrapper">
+    <div id="sidebar"></div>
+
+    <div id="content">
+        <div class="chat-container">
+            <div class="card chat-card">
+                <div class="card-body" id="result-con" style="height: 620px; overflow-y: scroll;"></div>
+            </div>
+        </div>
+
+        <div class="card chat-card" style="margin-left:1px;padding:-20px;margin-top: 30px; ">
+            <div class="card-body">
+                <form id="chat-form">
+                    <div class="input-group mb-3">
+                        <input type="text" id="input-msg" class="form" placeholder="Type your message...">
+                        <button type="button" id="btn-send" class="btn btn-primary" style="margin-left: 10px;background-color: transparent;">
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Message Suggestions -->
+               
+            </div>
+            <div id="suggestion-container">
+                <div class="suggestion-row">
+                    <button class="suggestion-btn" onclick="insertSuggestion('Where is cisc?')">Where is cisc?</button>
+                    <button class="suggestion-btn" onclick="insertSuggestion('Where is cisco?')">Where is cisco?</button>
+                </div>
+                <div class="suggestion-row">
+                    <button class="suggestion-btn" onclick="insertSuggestion('What is your name?')">What is your name?</button>
+                    <button class="suggestion-btn" onclick="insertSuggestion('Arram Gwapo ?')">What is your name?</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+<script src="{{ url_for('static', filename='js/switchcolor.js') }}"></script>
+{% endblock script %}

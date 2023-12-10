@@ -1,0 +1,522 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": [
+      "Hello",
+      "Hey",
+      "Hi",
+      "Good day",
+      "Maayong adlaw",
+      "Hello, good morning.",
+      "Hello, good afternoon."
+    ],
+    "responses": [
+      "Hello!",
+      "Hey!",
+      "Hello, what can I do for you?",
+      "Hello there!",
+      "Hi! How can I assist you?",
+      "Hey there! How can I help?",
+      "Hi! Is there something I can help with?",
+      "Greetings! What do you need assistance with today?"
+    ]
+  },  
+  {"tag": "checking up",
+    "patterns": [
+      "How is it going?",
+      "What's up?",
+      "How are you?",
+      "Are you fine?",
+      "Are you okay?"
+    ],
+    "responses": [
+      "I'm doing well, thank you! How can I assist you today?",
+      "All good here, thanks! How can I help you?",
+      "I'm fine, thank you for asking! How may I assist you?",
+      "Everything is fine. How can I be of assistance?",
+      "I'm doing alright, thank you! How may I help you today?",
+      "I'm good, thank you! How can I support you?",
+      "I'm okay, thanks for asking! How can I assist you?"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "goodbye",
+      "see you later",
+      "cya",
+      "byers",
+      "bye",
+      "see ya",
+      "talk to you later",
+      "take care"
+    ],
+    "responses": [
+      "It was nice talking to you. Bye!",
+      "Goodbye :(",
+      "Talk to you later.",
+      "Farewell! Have a great day!",
+      "Take care! Bye for now.",
+      "Until next time!"
+    ]
+  },
+  {
+    "tag": "college",
+    "patterns": [
+      "cisc",
+      "college of information sciences and computing",
+      "information sciences and computing",
+      "IT College",
+      "BSIT College"
+    ],
+    "responses": [
+      "Are you talking about the College of Information Sciences and Computing?",
+      "The College of Information Sciences and Computing houses the Information Technology Departmet of CMU."
+    ]
+  },
+  {
+    "tag": "college location",
+    "patterns": [
+      "Where is the College of Information Sciences and Computing situated?",
+      "Could you tell me the exact location of the CISC building?",
+      "What is the location of the College of Information Sciences and Computing?",
+      "I'm looking for the location of CISC. Can you help?",
+      "Where can I locate the College of Information Sciences and Computing?"
+    ],
+    "responses": [
+      "The College of Information Sciences and Computing (CISC) is situated in front of the Research Development building, behind CAS Extension, and near the COE building.",
+      "You can find the CISC building beside the COE Atrium building."
+    ]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+      "what is your name",
+      "who are you",
+      "what can I call you",
+      "what are you",
+      "can you tell me about yourself"
+    ],
+    "responses": [
+      "I am CSCobot, the dedicated virtual assistant for CISC students.",
+      "I am CSCobot!",
+      "I am the virtual assistant for CISC students, CSCobot!"
+    ]
+  },
+  {
+    "tag": "creator",
+    "patterns": [
+      "Who created you?",
+      "Who developed you?",
+      "The team who created you.",
+      "kinsay nagbuhat sa imo"
+    ],
+    "responses": [
+      "I was created by BSIT 3rd-year students. However, I can't disclose their names as they prefer to remain anonymous.",
+      "I am owned by the BSIT 3rd-year students."
+    ]
+  },
+  {
+    "tag": "age",
+    "patterns": [
+      "how old are you",
+      "what is your age",
+      "age?"
+    ],
+    "responses": [
+      "I am 0 year old, still a baby.",
+      "I am young but my creators are youger :)"
+    ]
+  },
+  {
+    "tag": "ask",
+    "patterns": [
+      "I'd like to ask something",
+      "Can I ask you a question",
+      "Can I ask you something"
+    ],
+    "responses": [
+      "Yes, how can I help you?",
+      "What can I do for you?",
+      "How may I help you?",
+      "Yes?"
+    ]
+  },
+  {
+    "tag": "facilities",
+    "patterns": [
+      "What facilities are available in the college?",
+      "Tell me about the amenities in the CISC building.",
+      "What are the facilities the college has?"
+    ],
+    "responses": [
+      "CISC offers various facilities such as conference room, training room, table tennis table, student lounge, and more.",
+      "In the CISC building, you'll find computer labs, study areas, and faculty offices."
+    ]
+  },
+  {
+    "tag": "laboratory",
+    "patterns": [
+      "Computer Laboratory",
+      "Computer lab",
+      "Where can I find the computer labs?",
+      "Where can I find the computer laboratories?",
+      "Where is the computer lab located?",
+      "Which floor are the computer labs on?",
+      "Show me the way to the computer labs"
+    ],
+    "responses": [
+      "The computer laboratories are situated on the second floor of the CISC building.",
+      "In the CISC building, you'll find the computer labs located on the second floor.",
+      "You can locate the computer labs on the second floor of the CISC building."
+    ]
+  },
+  {
+    "tag": "lab 21",
+    "patterns": [
+      "Laboratory 21",
+      "Lab 21",
+      "Where can I find lab 21?",
+      "Where can I find the computer laboratory 21?",
+      "Where is lab 21 located?",
+      "Show me the way to the lab 21"
+    ],
+    "responses": [
+      "Lab 21 is on the second floor, left side and beside the technician office.",
+      "In the CISC building, you'll find Lab 21 on the left side on the second floor.",
+      "You can locate Lab 21 on the second floor of the CISC building."
+    ]
+  },
+  {
+    "tag": "lab 22",
+    "patterns": [
+      "Laboratory 22",
+      "Lab 22",
+      "Where can I find lab 22?",
+      "Where can I find the computer laboratory 22?",
+      "Where is lab 22 located?"
+    ],
+    "responses": [
+      "Lab 22 is situated on the second floor.",
+      "In the CISC building, you'll find Lab 22 located on the left side of the second floor.",
+      "You can locate Lab 22 on the second floor of the CISC building."
+    ]
+  },
+  {
+    "tag": "lab 23",
+    "patterns": [
+      "Where can I find lab 23?",
+      "Where can I find the computer laboratory 23?",
+      "Where is lab 23 located?"
+    ],
+    "responses": [
+      "Lab 23 is positioned on the second floor of the CISC building.",
+      "In the CISC building, you'll discover Lab 23 situated on the left side of the second floor.",
+      "You'll find Lab 23 on the second floor of the CISC building."
+    ]
+  },
+  {
+    "tag": "lab 24",
+    "patterns": [
+      "Where can I find lab 24?",
+      "Where can I find the computer laboratory 24?",
+      "Where is lab 24 located?"
+    ],
+    "responses": [
+      "In the CISC building, you'll discover Lab 24 situated on the right side of the second floor.",
+      "You'll find Lab 24 on the second floor of the CISC building.",
+      "Lab 24 is located on the right side of the second floor of the building. As of my knowledge. Lab 24 is still treated as a lecture room."
+    ]
+  },
+  {
+    "tag": "lab 25",
+    "patterns": [
+      "Where can I find lab 25?",
+      "Where can I find the computer laboratory 25?",
+      "Where is lab 25 located?"
+    ],
+    "responses": [
+      "Lab 25 is situated on the second floor of the CISC building.",
+      "In the CISC building, Lab 25 is located on the right side of the second floor.",
+      "You can find Lab 25 on the second floor of the CISC building."
+    ]
+  },
+  {
+    "tag": "lab 26",
+    "patterns": [
+      "Laboratory 26",
+      "Lab 26",
+      "Where can I find lab 26?",
+      "Where can I find the computer laboratory 26?",
+      "Where is lab 26 located?"
+    ],
+    "responses": [
+      "Lab 26 is on the second floor of the CISC building.",
+      "Lab 26 is located on the right side of the second floor.",
+      "You can find Lab 26 on the second floor of the CISC building."
+    ]
+  },
+  {
+    "tag": "csco_office",
+    "patterns": [
+      "Where is the CSCo office located?",
+      "Where can I find the CSCo office?",
+      "CSCo office location",
+      "Where's the student council office?"
+    ],
+    "responses": [
+      "The CSCo office is situated on the second floor, to the right side near the stairs (front of the building) within the CISC building."
+    ]
+  },
+  {
+    "tag": "csco_description",
+    "patterns": [
+      "What is CSCo?",
+      "Tell me about CSCo",
+      "What does CSCo stand for?",
+      "Can you describe CSCo?",
+      "Student Council"
+    ],
+    "responses": [
+      "The CSCo (College Student Council) represents the student body within the College of Information Sciences and Computing (CISC). It serves as the governing body for student-related activities, advocating for student needs and fostering a conducive environment for academic and extracurricular pursuits."
+    ]
+  },
+  {
+    "tag": "current_chairperson",
+    "patterns": [
+      "Who is the current CSCo chairperson?",
+      "Who is the president CSCo?",
+      "Current chairperson of CSCo",
+      "CSCo chairperson for 2023-2024",
+      "Student council president"
+    ],
+    "responses": [
+      "The current chairperson of the College Student Council (CSCo) for the academic year 2023-2024 is Ms. Beatrize Daleon."
+    ]
+  },
+  {
+    "tag": "faculty_office_location",
+    "patterns": [
+      "Where is the faculty office located?",
+      "Where can I find the faculty office?",
+      "Faculty office",
+      "Where's the office for faculty?"
+    ],
+    "responses": [
+      "The faculty office is situated on the first floor of the CISC building, on the left side next to the Registrar office.",
+      "You'll find the faculty office located on the first floor of the CISC building, adjacent to the Registrar office on the left-hand side.",
+      "On the first floor of the CISC building, you can locate the faculty office positioned beside the Registrar office towards the left side."
+    ]
+  },
+  {
+    "tag": "current_dean",
+    "patterns": [
+      "Who is the current dean of CISC?",
+      "Current dean of the college",
+      "CISC dean"
+    ],
+    "responses": [
+      "The current Dean of the College of Information Sciences and Computing (CISC) is Sir John Tajones.",
+      "Sir John Tajones is currently serving as the Dean of the College of Information Sciences and Computing (CISC).",
+      "The Dean of the College of Information Sciences and Computing (CISC) is Sir John Tajones."
+    ]
+  },
+  {
+    "tag": "room_1_location",
+    "patterns": [
+      "Where is Room 1 located?",
+      "Where can I find Room 1?",
+      "Room 1 location",
+      "Where's Room 1?"
+    ],
+    "responses": [
+      "Room 1 is situated on the first floor, towards the right side near the entrance of the building within CISC.",
+      "You'll find Room 1 located on the first floor, near the entrance, to the right-hand side within the CISC building.",
+      "On the first floor of the CISC building, Room 1 is positioned near the entrance, towards the right side."
+    ]
+  },
+  {
+    "tag": "room_2_location",
+    "patterns": [
+      "Where is Room 2 located?",
+      "Where can I find Room 2?",
+      "Room 2 location",
+      "Where's Room 2?"
+    ],
+    "responses": [
+      "Room 2 is situated on the first floor, towards the right side of the building within CISC.",
+      "You'll find Room 2 located on the first floor to the right-hand side within the CISC building.",
+      "On the first floor of the CISC building, Room 2 is positioned towards the right side."
+    ]
+  },
+  {
+    "tag": "room_3_location",
+    "patterns": [
+      "Where is Room 3 located?",
+      "Where can I find Room 3?",
+      "Room 3 location",
+      "Where's Room 3?"
+    ],
+    "responses": [
+      "Room 3 is on the first floor, right side, at the end of the hallway within CISC.",
+      "You'll find Room 3 on the first floor, right side, at the end of the hallway within CISC.",
+      "On the first floor of the CISC building, Room 3 is located on the right side, at the end of the hallway."
+    ]
+  },
+  {
+    "tag": "it_program",
+    "patterns": [
+      "Tell me about the Information Technology program.",
+      "What can you tell me about studying IT at the college?",
+      "Information about the IT program."
+    ],
+    "responses": [
+      "The Information Technology program offers courses in networking, sofware development, and data science, preparing students for careers in IT field/industry.",
+      "Studying IT involves learning about software development such as application and desktop development, web systems, and database normalization providing skills essential for roles in IT-related professions.",
+      "The IT program emphasizes logical thinking and problem solving skills and equips students with knowledge relevant to IT careers/industry demands."
+    ]
+  },
+  {
+    "tag": "college_history",
+    "patterns": [
+      "Tell me about the history of the college.",
+      "How was the college founded?",
+      "What is the background of the college?",
+      "College history"
+    ],
+    "responses": [
+      "The college was founded in 2001 and has since been dedicated to produce competent IT Professionals.",
+      "The history of the college dates back to 2001, driven by the vision of improving the technological structure and involvement of CMU.",
+      "Founded in 2001, the college has a rich history shaped by pioneering batch and has evolved to align with its mission of producing competent IT prefessionals."
+    ]
+  },
+  {
+    "tag": "faculty_info",
+    "patterns": [
+      "Tell me about the faculty members.",
+      "Who are the professors in the IT department?",
+      "Information about the faculty."
+    ],
+    "responses": [
+      "Our faculty consists of experienced professors and experts in various IT fields.",
+      "The faculty members bring diverse expertise to the IT department, covering areas such as [specific subjects/technologies].",
+      "We have renowned instructors in the IT department, including Sir Kent Bonifacio, Sir Tajones, Sir Verula, Ma'am Verula, and Ma'am Jinky."
+    ]
+  },
+  {
+    "tag": "okay",
+    "patterns": [
+      "okay",
+      "If you say so",
+      "Okay got it",
+      "Okay noted"
+    ],
+    "responses": [
+      "Is there anything else that I can do for you?",
+      "Glad that you are satisfied with my answer.",
+      "Anything that you want to ask?"
+    ]
+  },
+  {
+    "tag": "disagreement",
+    "patterns": [
+      "You are wrong",
+      "That's not correct",
+      "This is incorrect",
+      "I disagree",
+      "wrong information",
+      "not accurate"
+    ],
+    "responses": [
+      "I apologize for the confusion. Could you please provide more details or clarify your query? I'll try to assist you better.",
+      "I'm here to help. Can you provide more information or ask a specific question? I'll do my best to provide accurate information."
+    ]
+  },
+  {
+    "tag": "single_word_responses",
+    "patterns": [
+      "yes",
+      "maybe",
+      "Okay",
+      "nothing"
+    ],
+    "responses": [
+      "I see.",
+      "Understood.",
+      "Got it.",
+      "Alright."
+    ]
+  },
+  {
+    "tag": "thank you",
+    "patterns": [
+      "Thank you",
+      "Salamat",
+      "That was really helpful"
+    ],
+    "responses": [
+      "You are welcome :)",
+      "Glad I can help.",
+      "Of course! Is there anything else I can help you with?"
+    ]
+  },
+  {
+    "tag": "course",
+    "patterns": [
+      "What course I am in?",
+      "What is my course?",
+      "My college course"
+    ],
+    "responses": [
+      "Sorry, I have hard time finding out your course.",
+      "I currently cannot find the info about your department."
+    ]
+  },
+  {
+    "tag": "fine_id",
+    "patterns": [
+      "What are my fines",
+      "How many fines do I have?",
+      "Do i have fines?"
+    ],
+    "responses": [
+      "Sorry, I have hard time finding out your fines.",
+      "I currently cannot find the info about your fines."
+    ]
+  },
+  {
+    "tag": "student_name",
+    "patterns": [
+      "What is my name?",
+      "My name.",
+      "Do you know me?"
+    ],
+    "responses": [
+      "Sorry, I have hard time finding out your name.",
+      "I currently cannot find the info about your name."
+    ]
+  },
+  {
+    "tag": "year_level",
+    "patterns": [
+      "Do you know my year level?",
+      "My year level"
+    ],
+    "responses": [
+      "Sorry, I have hard time finding out your year level.",
+      "I currently cannot find the info about your year level."
+    ]
+  },
+  {
+    "tag": "track",
+    "patterns": [
+      "What is my track?",
+      "My specialization track",
+      "Do you my track?"
+    ],
+    "responses": [
+      "Sorry, I have hard time finding out your track.",
+      "I currently cannot find the info about your track."
+    ]
+  }
+  ]}

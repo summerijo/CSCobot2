@@ -1,0 +1,21 @@
+body.light-mode {
+    background-color: white;
+    color: #000000;
+}
+
+.input-msg.light-mode {
+    background-color: white;
+    color: #000000;
+}
+
+
+
+body.dark-mode {
+    background-color: black;
+    color: #ffffff;
+}
+
+.input-msg.dark-mode {
+    background-color: black;
+    color: #ffffff;
+}
